@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <section class="section">
+        <h1>ROAD</h1>
+        <h3 id="h3-1"></h3>
+        <img src="" alt="img" id="img" width="450px" height="450px">
+        <h3 id="h3-2"></h3>
+        <h3 id="h3-3"></h3>
+    </section>
+    <script>
+        const object = {
+            title :"portret-1",
+            img : 'https://cdn.pixabay.com/photo/2017/08/21/11/41/labor-2665057_1280.jpg',
+            like:100,
+            massege:500,
+        }
+        document.getElementById('h3-1').innerHTML = object.title
+        document.getElementById('img').src = object.img
+        document.getElementById('h3-2').innerHTML = 'like:' + object.like
+        document.getElementById('h3-3').innerHTML = 'massege:' + object.massege 
+    </script>
+</body>
+</html>
